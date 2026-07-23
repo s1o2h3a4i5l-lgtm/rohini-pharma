@@ -1,0 +1,928 @@
+{
+    "Pages": [
+        {
+            "title": "Sample Page \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/sample-page/",
+            "local_file": "pages\\Sample Page \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Shop \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/shop/",
+            "local_file": "pages\\Shop \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Cart \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/cart/",
+            "local_file": "pages\\Cart \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Checkout \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/checkout/",
+            "local_file": "pages\\Checkout \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "My account \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/my-account/",
+            "local_file": "pages\\My account \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Cart \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/cart-2/",
+            "local_file": "pages\\Cart \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\payments2.png",
+                "images\\IMG-20230328-WA0000-e1707730601270.jpg"
+            ]
+        },
+        {
+            "title": "Cart \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/checkout-2/",
+            "local_file": "pages\\Cart \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\payments2.png",
+                "images\\IMG-20230328-WA0000-e1707730601270.jpg"
+            ]
+        },
+        {
+            "title": "My Account \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/my-account-2/",
+            "local_file": "pages\\My Account \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\payments2.png",
+                "images\\IMG-20230328-WA0000-e1707730601270.jpg"
+            ]
+        },
+        {
+            "title": "Rohini Pharma \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/",
+            "local_file": "pages\\Rohini Pharma \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Medical 02 \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/medical-02/",
+            "local_file": "pages\\Medical 02 \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Mega Shop 01 \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/mega-shop-01/",
+            "local_file": "pages\\Mega Shop 01 \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Dental Care 01 \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/dental-care-01/",
+            "local_file": "pages\\Dental Care 01 \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Order Tracking \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/shop-2/order-tracking/",
+            "local_file": "pages\\Order Tracking \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Our Services \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/our-services/",
+            "local_file": "pages\\Our Services \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "About Us V1 \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/about-us-v1/",
+            "local_file": "pages\\About Us V1 \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Our Team \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/our-team/",
+            "local_file": "pages\\Our Team \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "FAQs \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/faqs/",
+            "local_file": "pages\\FAQs \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Contact Us \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/contact-us/",
+            "local_file": "pages\\Contact Us \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Coming Soon \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/coming-soon/",
+            "local_file": "pages\\Coming Soon \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Blog \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/blog/",
+            "local_file": "pages\\Blog \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Wishlist \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/wishlist/",
+            "local_file": "pages\\Wishlist \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Compare \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/compare/",
+            "local_file": "pages\\Compare \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Testing Page \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/testing-page/",
+            "local_file": "pages\\Testing Page \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "About Us \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/about-us/",
+            "local_file": "pages\\About Us \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Medical 01 \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/medical-01/",
+            "local_file": "pages\\Medical 01 \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Landing \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/landing/",
+            "local_file": "pages\\Landing \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Shop \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/shop-2/",
+            "local_file": "pages\\Shop \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Medical Equipment \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/medical-equipment/",
+            "local_file": "pages\\Medical Equipment \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Category \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/category/",
+            "local_file": "pages\\Category \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Blogs \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/blogs/",
+            "local_file": "pages\\Blogs \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Shipping Policy \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/shipping-policy/",
+            "local_file": "pages\\Shipping Policy \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Leading Pharmaceutical Supplier \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/leading-pharmaceutical-supplier/",
+            "local_file": "pages\\Leading Pharmaceutical Supplier \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Term & Condition \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/term-condition/",
+            "local_file": "pages\\Term & Condition \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Privacy Policy \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/privacy-policy/",
+            "local_file": "pages\\Privacy Policy \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Returns and Refunds \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/returns-and-refunds/",
+            "local_file": "pages\\Returns and Refunds \u2013 Rohini Pharma.md",
+            "images": []
+        }
+    ],
+    "Blog Posts": [
+        {
+            "title": "Learn About Swimmers Ear \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/24/learn-about-swimmers-ear/",
+            "local_file": "posts\\Learn About Swimmers Ear \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Apricot Kernel Oil \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/24/apricot-kernel-oil/",
+            "local_file": "posts\\Apricot Kernel Oil \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Chrones The Other Ibd \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/24/chrones-the-other-ibd/",
+            "local_file": "posts\\Chrones The Other Ibd \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Learn About Swimmers Ear \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/26/learn-about-swimmers-ear-2/",
+            "local_file": "posts\\Learn About Swimmers Ear \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Apricot Kernel Oil \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/26/apricot-kernel-oil-2/",
+            "local_file": "posts\\Apricot Kernel Oil \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Chrones The Other Ibd \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/26/chrones-the-other-ibd-2/",
+            "local_file": "posts\\Chrones The Other Ibd \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "The Truth About Hemorrhoids \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/26/the-truth-about-hemorrhoids/",
+            "local_file": "posts\\The Truth About Hemorrhoids \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Dangerous Drugs In The News \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/26/dangerous-drugs-in-the-news/",
+            "local_file": "posts\\Dangerous Drugs In The News \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Hearing Aids To Best Suit Your Needs \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/26/hearing-aids-to-best-suit-your-needs/",
+            "local_file": "posts\\Hearing Aids To Best Suit Your Needs \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "A Brief History Of Anesthetics \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/a-brief-history-of-anesthetics/",
+            "local_file": "posts\\A Brief History Of Anesthetics \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Colon Flush For An Overall Well Being \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/colon-flush-for-an-overall-well-being/",
+            "local_file": "posts\\Colon Flush For An Overall Well Being \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Precautionary Measures For Hernia \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/precautionary-measures-for-hernia/",
+            "local_file": "posts\\Precautionary Measures For Hernia \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Vitamin B A Complex Mix \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/vitamin-b-a-complex-mix/",
+            "local_file": "posts\\Vitamin B A Complex Mix \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Aromatherapy While Traveling \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/aromatherapy-while-traveling/",
+            "local_file": "posts\\Aromatherapy While Traveling \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Asperger S Syndrome Is There Real Cure For It \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/asperger-s-syndrome-is-there-real-cure-for-it/",
+            "local_file": "posts\\Asperger S Syndrome Is There Real Cure For It \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Headaches And Botox Injections \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/headaches-and-botox-injections/",
+            "local_file": "posts\\Headaches And Botox Injections \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Is Lasik Right For Me \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/27/is-lasik-right-for-me/",
+            "local_file": "posts\\Is Lasik Right For Me \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Hello world! \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/2020/11/12/hello-world-2/",
+            "local_file": "posts\\Hello world! \u2013 Rohini Pharma.md",
+            "images": []
+        }
+    ],
+    "Products": [
+        {
+            "title": "Cenforce 130 mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/wellness-fitness-devices/",
+            "local_file": "products\\Cenforce 130 mg \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\cenforce-130-mg-tablet-500x500-1.webp"
+            ]
+        },
+        {
+            "title": "KAMAGRA GOLD 50 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-gold-50-mg/",
+            "local_file": "products\\KAMAGRA GOLD 50 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\ih4NAfAR2rNJC8RFTzHcOnKN411TPaqKvpQJOZnR.jpeg"
+            ]
+        },
+        {
+            "title": "KAMAGRA GOLD 100 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-gold-100-mg/",
+            "local_file": "products\\KAMAGRA GOLD 100 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-gold-100-mg.jpg"
+            ]
+        },
+        {
+            "title": "KAMAGRA 100 MG ORAL JELLY VOL 1 \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-100-mg-oral-jelly-vol-1/",
+            "local_file": "products\\KAMAGRA 100 MG ORAL JELLY VOL 1 \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-orl-jelly-vol-1-4.jpg"
+            ]
+        },
+        {
+            "title": "SUPER KAMAGRA ORAL JELLY \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/super-kamagra-oral-jelly/",
+            "local_file": "products\\SUPER KAMAGRA ORAL JELLY \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\super-kamagra-oral-jelly-500x500-1.webp"
+            ]
+        },
+        {
+            "title": "KAMAGRA 100 MG POLO \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-100-mg-polo/",
+            "local_file": "products\\KAMAGRA 100 MG POLO \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-polo-500x500-1.webp"
+            ]
+        },
+        {
+            "title": "KAMAGRA-100 MG POLO \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-100-mg-polo-2/",
+            "local_file": "products\\KAMAGRA-100 MG POLO \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-polo-sildenafil-100mg.jpg"
+            ]
+        },
+        {
+            "title": "KAMAGRA-100 MG CHEWABLE TABLET \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-100-mg-chewable-tablet/",
+            "local_file": "products\\KAMAGRA-100 MG CHEWABLE TABLET \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-chewable-tablets-500x500-1.webp"
+            ]
+        },
+        {
+            "title": "KAMAGRA-100 MG EFFERVESCENT \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-100-mg-effervescent/",
+            "local_file": "products\\KAMAGRA-100 MG EFFERVESCENT \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-effervescent.jpg"
+            ]
+        },
+        {
+            "title": "SUPER KAMAGRA \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/super-kamagra/",
+            "local_file": "products\\SUPER KAMAGRA \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-tablets.jpeg"
+            ]
+        },
+        {
+            "title": "KAMAGRA EXPO 100 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/kamagra-expo-100-mg/",
+            "local_file": "products\\KAMAGRA EXPO 100 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\kamagra-expo-tablets.jpg"
+            ]
+        },
+        {
+            "title": "APCALIS-SX 20 MG ORAL JELLY \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/apcalis-sx-20-mg-oral-jelly/",
+            "local_file": "products\\APCALIS-SX 20 MG ORAL JELLY \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\2-1684240-1684240169_5931135_1819127.jpg"
+            ]
+        },
+        {
+            "title": "TADALIS-SX 20 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/tadalis-sx-20-mg/",
+            "local_file": "products\\TADALIS-SX 20 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\tadalis-sx-20mg-tablets.jpg"
+            ]
+        },
+        {
+            "title": "LOVEGRA 100 MG ORAL JELLY \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/lovegra-100-mg-oral-jelly/",
+            "local_file": "products\\LOVEGRA 100 MG ORAL JELLY \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\lovegra-oral-jelly-rose-flavour-.jpeg"
+            ]
+        },
+        {
+            "title": "LOVEGRA 100 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/lovegra-100-mg/",
+            "local_file": "products\\LOVEGRA 100 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\lovegra-female-viagra-500x500-1.webp"
+            ]
+        },
+        {
+            "title": "VALIF 20 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/valif-20-mg/",
+            "local_file": "products\\VALIF 20 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\whatsapp-image-2023-10-06-at-12-34-04-192-11zon.jpeg"
+            ]
+        },
+        {
+            "title": "VALIF 20 MG ORAL JELLY \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/valif-20-mg-oral-jelly/",
+            "local_file": "products\\VALIF 20 MG ORAL JELLY \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\jelly2.jpg"
+            ]
+        },
+        {
+            "title": "Cenforce 25mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/cenforce-25mg/",
+            "local_file": "products\\Cenforce 25mg \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\31.jpg"
+            ]
+        },
+        {
+            "title": "Cenforce 50 mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/cenforce-50-mg/",
+            "local_file": "products\\Cenforce 50 mg \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\cenforce-50mg-tablets-500x500-1.png"
+            ]
+        },
+        {
+            "title": "Cenforce 100 mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/cenforce-100-mg/",
+            "local_file": "products\\Cenforce 100 mg \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\cenforce-100-mg-tablet.png"
+            ]
+        },
+        {
+            "title": "Cenforce 120 mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/cenforce-120-mg/",
+            "local_file": "products\\Cenforce 120 mg \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\cenforce-120-mg-tablet.png"
+            ]
+        },
+        {
+            "title": "Ramiven 150mg Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/ramiven-150mg-tablet/",
+            "local_file": "products\\Ramiven 150mg Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\WhatsApp-Image-2024-10-04-at-12.08.09-PM.png"
+            ]
+        },
+        {
+            "title": "Avana-50mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/avana-50mg/",
+            "local_file": "products\\Avana-50mg \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Avana-100mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/avana-100mg/",
+            "local_file": "products\\Avana-100mg \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Avana 200mg \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/avana-200mg/",
+            "local_file": "products\\Avana 200mg \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\Avana-200mg-tabs.jpg"
+            ]
+        },
+        {
+            "title": "Top Avana \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/top-avana/",
+            "local_file": "products\\Top Avana \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\Top-Avana-Tabs.jpg"
+            ]
+        },
+        {
+            "title": "Super Avana \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/super-avana/",
+            "local_file": "products\\Super Avana \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\Super-Avana-Tabs.jpg"
+            ]
+        },
+        {
+            "title": "Extra Super Avana \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/extra-super-avana/",
+            "local_file": "products\\Extra Super Avana \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\Extra-Super-Avana-Tabs.jpg"
+            ]
+        },
+        {
+            "title": "Ozempic 1 MG \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/ozempic-1-mg/",
+            "local_file": "products\\Ozempic 1 MG \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\product_clear_background-1.png"
+            ]
+        },
+        {
+            "title": "Ebunat 0.5mg Injection \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/ebunat-0-5mg-injection/",
+            "local_file": "products\\Ebunat 0.5mg Injection \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\eribulin_box-1.png"
+            ]
+        },
+        {
+            "title": "Soranib Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/soranib-tablet/",
+            "local_file": "products\\Soranib Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\WhatsApp-Image-2025-09-07-at-10.04.02-PM.jpeg"
+            ]
+        },
+        {
+            "title": "Lenvat 4 Capsule \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/lenvat-4-capsule/",
+            "local_file": "products\\Lenvat 4 Capsule \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\WhatsApp-Image-2025-09-07-at-10.04.02-PM-1.jpeg"
+            ]
+        },
+        {
+            "title": "Keytruda Injection \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/keytruda-injection/",
+            "local_file": "products\\Keytruda Injection \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\WhatsApp-Image-2025-09-07-at-10.04.03-PM.jpeg"
+            ]
+        },
+        {
+            "title": "Mounjaro 5mg KwikPen \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/mounjaro-5mg-kwikpen/",
+            "local_file": "products\\Mounjaro 5mg KwikPen \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\WhatsApp-Image-2025-09-07-at-10.04.03-PM-1.jpeg"
+            ]
+        },
+        {
+            "title": "Prolavir LR Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/prolavir-lr-tablet/",
+            "local_file": "products\\Prolavir LR Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\prolavir-lr-1000x1000-1.webp"
+            ]
+        },
+        {
+            "title": "Trilavir Mini Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/trilavir-mini-tablet/",
+            "local_file": "products\\Trilavir Mini Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\trilavir-mini-1000x1000-1.webp"
+            ]
+        },
+        {
+            "title": "Viropil Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/viropil-tablet/",
+            "local_file": "products\\Viropil Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\image-1000x1000-1.webp"
+            ]
+        },
+        {
+            "title": "Hepbest Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/hepbest-tablet/",
+            "local_file": "products\\Hepbest Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\whatsapp-image-2022-10-07-at-6-33-47-pm-1000x1000-1.webp"
+            ]
+        },
+        {
+            "title": "Viraday Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/viraday-tablet/",
+            "local_file": "products\\Viraday Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\viraday-tablet-1000x1000-1.webp"
+            ]
+        },
+        {
+            "title": "Zenflox-UTI Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/zenflox-uti-tablet/",
+            "local_file": "products\\Zenflox-UTI Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\zenflox-uti-infection-tablet-10-tab-strip-250x250-1.webp"
+            ]
+        },
+        {
+            "title": "Uribid Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/uribid-tablet/",
+            "local_file": "products\\Uribid Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\uribid-tablet-1000x1000-1.webp"
+            ]
+        },
+        {
+            "title": "Ahaglow Advanced Skin Rejuvenating Face Wash | Effective Pore Cleanser | SLS & Paraben-Free Face Care Product \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/ahaglow-advanced-skin-rejuvenating-face-wash-effective-pore-cleanser-sls-paraben-free-face-care-product/",
+            "local_file": "products\\Ahaglow Advanced Skin Rejuvenating Face Wash _ Effective Pore Cleanser _ SLS & Paraben-Free Face Car.md",
+            "images": [
+                "images\\shopping.webp"
+            ]
+        },
+        {
+            "title": "Dermadew Face Wash | Sulphate Free Face Care Product \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/dermadew-face-wash-sulphate-free-face-care-product/",
+            "local_file": "products\\Dermadew Face Wash _ Sulphate Free Face Care Product \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\shopping-1.webp"
+            ]
+        },
+        {
+            "title": "Cetaphil Moisturising Cream | Face Care Product for Dry to Normal, Sensitive Skin Dry to Normal, Sensitive Skin \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/cetaphil-moisturising-cream-face-care-product-for-dry-to-normal-sensitive-skin-dry-to-normal-sensitive-skin/",
+            "local_file": "products\\Cetaphil Moisturising Cream _ Face Care Product for Dry to Normal, Sensitive Skin Dry to Normal, Sen.md",
+            "images": [
+                "images\\shopping-2.webp"
+            ]
+        },
+        {
+            "title": "Minimalist 10% Vitamin C Face Serum | Brightens Skin \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/minimalist-10-vitamin-c-face-serum-brightens-skin/",
+            "local_file": "products\\Minimalist 10% Vitamin C Face Serum _ Brightens Skin \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\shopping-3.webp"
+            ]
+        },
+        {
+            "title": "Rosuvas 10 Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/rosuvas-10-tablet/",
+            "local_file": "products\\Rosuvas 10 Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\ROS0025_1_1.webp"
+            ]
+        },
+        {
+            "title": "Concor 5 Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/concor-5-tablet/",
+            "local_file": "products\\Concor 5 Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\con0004_1.webp"
+            ]
+        },
+        {
+            "title": "Vymada 100 mg Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/vymada-100-mg-tablet/",
+            "local_file": "products\\Vymada 100 mg Tablet \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Metosartan 50 Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/metosartan-50-tablet/",
+            "local_file": "products\\Metosartan 50 Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\MET0478_1_1.webp"
+            ]
+        },
+        {
+            "title": "Nikoran-5 Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/nikoran-5-tablet/",
+            "local_file": "products\\Nikoran-5 Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\NIK0005_1_1.webp"
+            ]
+        },
+        {
+            "title": "Refresh Tears Eye Drop \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/refresh-tears-eye-drop/",
+            "local_file": "products\\Refresh Tears Eye Drop \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\REF0006_1_1.webp"
+            ]
+        },
+        {
+            "title": "Eyemist Eye Drop \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/eyemist-eye-drop/",
+            "local_file": "products\\Eyemist Eye Drop \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\EYE0003_1_2.webp"
+            ]
+        },
+        {
+            "title": "Lubimoist Eye Drop \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/lubimoist-eye-drop/",
+            "local_file": "products\\Lubimoist Eye Drop \u2013 Rohini Pharma.md",
+            "images": []
+        },
+        {
+            "title": "Emzumab 150mg Injection \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/emzumab-150mg-injection/",
+            "local_file": "products\\Emzumab 150mg Injection \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\EMZ0017_1.webp"
+            ]
+        },
+        {
+            "title": "Nucala 100mg Injection \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/nucala-100mg-injection/",
+            "local_file": "products\\Nucala 100mg Injection \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\nucala-pfs.jpg"
+            ]
+        },
+        {
+            "title": "Glycohale FB Rotacap \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/glycohale-fb-rotacap/",
+            "local_file": "products\\Glycohale FB Rotacap \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\GLY0674_1_1.webp"
+            ]
+        },
+        {
+            "title": "Forglyn Plus Respicap \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/forglyn-plus-respicap/",
+            "local_file": "products\\Forglyn Plus Respicap \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\forglyn1.webp"
+            ]
+        },
+        {
+            "title": "Clonafit Plus Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/clonafit-plus-tablet/",
+            "local_file": "products\\Clonafit Plus Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\clo0361.webp"
+            ]
+        },
+        {
+            "title": "Tryptomer 10mg Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/tryptomer-10mg-tablet/",
+            "local_file": "products\\Tryptomer 10mg Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\TRY0001_1_1-1.webp",
+                "images\\TRY0001_1_1.webp"
+            ]
+        },
+        {
+            "title": "Zopilone 1mg Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/zopilone-1mg-tablet/",
+            "local_file": "products\\Zopilone 1mg Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\zop0001.webp"
+            ]
+        },
+        {
+            "title": "Stalopam Plus Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/stalopam-plus-tablet/",
+            "local_file": "products\\Stalopam Plus Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\sta0688.webp"
+            ]
+        },
+        {
+            "title": "Tecfidera 120mg Capsule \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/tecfidera-120mg-capsule/",
+            "local_file": "products\\Tecfidera 120mg Capsule \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\tecfidera-120-mg-capsules.jpg"
+            ]
+        },
+        {
+            "title": "Nortipan-M Tablet SR \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/nortipan-m-tablet-sr/",
+            "local_file": "products\\Nortipan-M Tablet SR \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\NOR0327_1_1.webp"
+            ]
+        },
+        {
+            "title": "Pregaba-D 75/20 Capsule DR \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/pregaba-d-75-20-capsule-dr/",
+            "local_file": "products\\Pregaba-D 75_20 Capsule DR \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\PRE1473_1_1.webp"
+            ]
+        },
+        {
+            "title": "Himalaya Wellness Himalaya Ashwagandha Tablet | Stress Relief Supplement | Rejuvenates Mind & Body \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/himalaya-wellness-himalaya-ashwagandha-tablet-stress-relief-supplement-rejuvenates-mind-body/",
+            "local_file": "products\\Himalaya Wellness Himalaya Ashwagandha Tablet _ Stress Relief Supplement _ Rejuvenates Mind & Body \u2013.md",
+            "images": [
+                "images\\71YESObJgsL._UF10001000_QL80_.jpg"
+            ]
+        },
+        {
+            "title": "Himalaya Liv. 52 DS Tablet | For Liver Care \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/himalaya-liv-52-ds-tablet-for-liver-care/",
+            "local_file": "products\\Himalaya Liv. 52 DS Tablet _ For Liver Care \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\71IRtm0xZL._SX522_.jpg"
+            ]
+        },
+        {
+            "title": "Himalaya Gokshura Ayurvedic Tablets For Men | Supports Stamina And Vigour \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/himalaya-gokshura-ayurvedic-tablets-for-men-supports-stamina-and-vigour/",
+            "local_file": "products\\Himalaya Gokshura Ayurvedic Tablets For Men _ Supports Stamina And Vigour \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\41optdgQW7L._SX300_SY300_QL70_FMwebp_.webp"
+            ]
+        },
+        {
+            "title": "Himalaya Herbals Purifying Neem Face Wash | For Acne & Pimple Relief | Paraben and Soap Free Face Care Product \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/himalaya-herbals-purifying-neem-face-wash-for-acne-pimple-relief-paraben-and-soap-free-face-care-product/",
+            "local_file": "products\\Himalaya Herbals Purifying Neem Face Wash _ For Acne & Pimple Relief _ Paraben and Soap Free Face Ca.md",
+            "images": [
+                "images\\download.webp"
+            ]
+        },
+        {
+            "title": "Tentex Royal \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/tentex-royal/",
+            "local_file": "products\\Tentex Royal \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\71lOLT8JjHL._UF10001000_QL80_.jpg"
+            ]
+        },
+        {
+            "title": "Hepamerz Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/hepamerz-tablet/",
+            "local_file": "products\\Hepamerz Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\hep0004.webp"
+            ]
+        },
+        {
+            "title": "Trilawil Capsule \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/trilawil-capsule/",
+            "local_file": "products\\Trilawil Capsule \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\whatsapp-image-2023-04-18-at-19-26-06.png"
+            ]
+        },
+        {
+            "title": "Silybon 140mg Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/silybon-140mg-tablet/",
+            "local_file": "products\\Silybon 140mg Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\SIL0007_1_1.webp"
+            ]
+        },
+        {
+            "title": "Gluconorm-G 1 Tablet PR \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/gluconorm-g-1-tablet-pr/",
+            "local_file": "products\\Gluconorm-G 1 Tablet PR \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\GLU0074_1_1.webp"
+            ]
+        },
+        {
+            "title": "Galvus OD 100mg Tablet MR \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/galvus-od-100mg-tablet-mr/",
+            "local_file": "products\\Galvus OD 100mg Tablet MR \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\GAL0201_1_1.webp"
+            ]
+        },
+        {
+            "title": "Janumet 50mg/500mg Tablet \u2013 Rohini Pharma",
+            "url": "https://www.rohinipharma.com/product/janumet-50mg-500mg-tablet/",
+            "local_file": "products\\Janumet 50mg_500mg Tablet \u2013 Rohini Pharma.md",
+            "images": [
+                "images\\81KHz41APjL._UF10001000_QL80_.jpg"
+            ]
+        }
+    ]
+}
