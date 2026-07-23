@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohini Pharma - Your trusted online pharmacy partner. Sourcing high-quality medications, healthcare supplements, and pharmacy essentials with professional care.">
+    <title>Rohini Pharma – Online Pharmacy & Wellness Store</title>
+    <link rel="icon" href="downloaded_site/images/IMG-20230328-WA0000-e1707730601270.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>✨ Save Big on Health: 30% Off on All Pharmacy Essentials! Limited Time Only.</span>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="container header-container">
+            <!-- Mobile Menu Toggle Button -->
+            <button class="menu-toggle" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+            <!-- Brand Logo -->
+            <div class="logo" onclick="window.location.hash = '#home'">
+                <div class="logo-text">Rohini<span>Pharma</span></div>
+            </div>
+
+            <!-- Header Navigation Menu (Desktop) -->
+            <nav aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about-us-section">About Us</a></li>
+                    <li><a href="#categories-section">Categories</a></li>
+                    <li><a href="#deals-section">Medicines</a></li>
+                    <li><a href="#request-section">Request Form</a></li>
+                </ul>
+            </nav>
+
+            <!-- Dynamic Search Bar (Desktop) -->
+            <div class="search-container">
+                <input type="text" class="search-bar" id="header-search" placeholder="Search medicines or categories...">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+
+            <!-- Action Buttons (Cart, Dark Mode) -->
+            <div class="header-actions">
+                <button class="action-btn" id="theme-toggle" aria-label="Toggle theme">
+                    <span id="theme-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </span>
+                </button>
+                <button class="action-btn" id="cart-btn" aria-label="Open Shopping Cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <span class="cart-badge" style="display: none;">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Sidebar Navigation Drawer -->
+    <div class="mobile-nav-backdrop" id="mobilenav-backdrop"></div>
+    <div class="mobile-nav-drawer" id="mobilenav-drawer">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 30px;">
+            <div class="logo">
+                <div class="logo-text">Rohini<span>Pharma</span></div>
+            </div>
+            <button class="drawer-close" id="mobilenav-close-btn" aria-label="Close menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div style="position:relative; margin-bottom: 30px;">
+            <input type="text" class="search-bar" id="mobile-search" placeholder="Search medicines..." style="padding-right: 40px; width: 100%;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="position:absolute; right:16px; top:50%; transform:translateY(-50%); color:var(--text-muted);">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about-us-section">About Us</a></li>
+            <li><a href="#categories-section">Categories</a></li>
+            <li><a href="#deals-section">Medicines</a></li>
+            <li><a href="#request-section">Request Form</a></li>
+        </ul>
+    </div>
+
+    <!-- MAIN HOME VIEW -->
+    <div id="home-view" class="view-container active">
+        
+        <!-- Hero Slider Section -->
+        <section class="hero-section" aria-label="Featured Banners">
+            <div class="carousel-slide active">
+                <img src="downloaded_site/images/cenforce-100-mg-tablet.png" class="carousel-bg" alt="Pharmacists in drugstore">
+                <div class="container" style="height:100%; display:flex; align-items:center;">
+                    <div class="carousel-content">
+                        <h2>Your One-Stop Shop for Health Needs</h2>
+                        <p>Discover our pharmacy's commitment to providing top-quality medicine, personalized care, and expert advice for you and your family.</p>
+                        <a href="#deals-section" class="btn btn-primary">Browse Medicines</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="downloaded_site/images/jelly2.jpg" class="carousel-bg" alt="Drugstore layout shelves">
+                <div class="container" style="height:100%; display:flex; align-items:center;">
+                    <div class="carousel-content">
+                        <h2>Your Trusted Partner for Quality Care</h2>
+                        <p>Visit us for a wide range of medications, expert advice, and personalized service. Your health is our number one priority.</p>
+                        <a href="#request-section" class="btn btn-primary">Submit Medication Request</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="downloaded_site/images/shopping.webp" class="carousel-bg" alt="Pharmacist packing pills">
+                <div class="container" style="height:100%; display:flex; align-items:center;">
+                    <div class="carousel-content">
+                        <h2>Reliable Healthcare Solutions Daily</h2>
+                        <p>Explore our comprehensive range of medications and healthcare services. From prescriptions to wellness advice, we support you.</p>
+                        <a href="#about-us-section" class="btn btn-primary">About Our Pharmacy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider Controls -->
+            <div class="carousel-controls">
+                <div class="carousel-indicator active"></div>
+                <div class="carousel-indicator"></div>
+                <div class="carousel-indicator"></div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories-section" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <h2 class="section-title">Shop by Category</h2>
+                        <p class="section-subtitle">Find standard clinical categories to refine your pharmaceutical requests.</p>
+                    </div>
+                </div>
+                <div class="categories-container">
+                    <div class="category-card" data-category="erectile dysfunction">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </div>
+                        <h3>Erectile Dysfunction</h3>
+                    </div>
+                    <div class="category-card" data-category="diabetes">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3>Diabetes</h3>
+                    </div>
+                    <div class="category-card" data-category="hepatitis">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                            </svg>
+                        </div>
+                        <h3>Hepatitis</h3>
+                    </div>
+                    <div class="category-card" data-category="ayurveda">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.364l-.707-.707M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3>Ayurveda</h3>
+                    </div>
+                    <div class="category-card" data-category="neurology">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 113.536 0V21h2v-5.464a5.002 5.002 0 01-3.536-8.536 5 5 0 015.657 8.077L15.657 12" />
+                            </svg>
+                        </div>
+                        <h3>Neurology</h3>
+                    </div>
+                    <div class="category-card" data-category="anti cancer">
+                        <div class="category-icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3>Anti Cancer</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hot Deals Section -->
+        <section id="deals-section" class="section-padding" style="background-color: var(--bg-tertiary);">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <h2 class="section-title">Hot Deals of the Day</h2>
+                        <p class="section-subtitle">Up to 30% discount on these selected essential medications.</p>
+                    </div>
+                    <a href="#deals-section" class="btn btn-outline" style="font-size:0.9rem; padding: 10px 20px;">View All</a>
+                </div>
+                <div class="product-grid" id="deals-grid">
+                    <!-- Cards will be populated dynamically from app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlight Badges Section -->
+        <section class="highlights-section section-padding">
+            <div class="container highlights-grid">
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Fast Home Delivery</h3>
+                        <p>Super fast and safe shipping on orders.</p>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>100% Secure Checkout</h3>
+                        <p>Industry-standard data privacy & security.</p>
+                    </div>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>Genuine Sourcing</h3>
+                        <p>Strict quality control from certified partners.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Medication Request Form & Contact -->
+        <section id="request-section" class="section-padding">
+            <div class="container">
+                <div class="form-section">
+                    <div class="form-grid">
+                        <div class="form-info-side">
+                            <h2>Expert Pharmacy Assistance</h2>
+                            <p>Cannot find your specific prescription medicine? Submit a request here. Our pharmaceutical team will verify sourcing possibilities and reach back to you shortly.</p>
+                            <div class="form-contact-links">
+                                <div class="form-contact-link">
+                                    <div class="form-contact-link-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p style="font-size:0.8rem; color:rgba(255,255,255,0.7)">Call Us</p>
+                                        <p style="font-size:1.1rem">+91-8982916490</p>
+                                    </div>
+                                </div>
+                                <div class="form-contact-link">
+                                    <div class="form-contact-link-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p style="font-size:0.8rem; color:rgba(255,255,255,0.7)">Email Us</p>
+                                        <p style="font-size:1.1rem">rohinipharma1420@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-side">
+                            <h3>Medication Request Form</h3>
+                            <form id="medication-request-form">
+                                <div class="form-group-row">
+                                    <div class="form-group">
+                                        <label for="form-name">Full Name *</label>
+                                        <input type="text" id="form-name" class="form-input" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-email">Email Address *</label>
+                                        <input type="email" id="form-email" class="form-input" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group-row">
+                                    <div class="form-group">
+                                        <label for="form-phone">Phone Number *</label>
+                                        <input type="tel" id="form-phone" class="form-input" placeholder="Phone No" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-medicine">Medicine Name *</label>
+                                        <input type="text" id="form-medicine" class="form-input" placeholder="Name Your Medicine" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-message">Special Instructions / Message</label>
+                                    <textarea id="form-message" class="form-input" placeholder="Dosage size, quantity, etc."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="width:100%;">Send Request</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Selling Section -->
+        <section class="section-padding" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <h2 class="section-title">Best Sellers</h2>
+                        <p class="section-subtitle">Our most frequently ordered medical wellness products.</p>
+                    </div>
+                </div>
+                <div class="product-grid" id="bestsellers-grid">
+                    <!-- Cards populated by app.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-us-section" class="section-padding" style="background-color: var(--bg-tertiary);">
+            <div class="container about-us-container">
+                <div>
+                    <img src="downloaded_site/images/eribulin_box-1.png" alt="Rohini Pharma Sourcing Box" style="border-radius:var(--border-radius-lg); box-shadow:var(--card-shadow);">
+                </div>
+                <div>
+                    <span class="badge badge-new" style="margin-bottom:12px;">About Rohini Pharma</span>
+                    <h2 style="font-size:2.5rem; margin-bottom:20px;">Premier Sourcing & Sincere Customer Care</h2>
+                    <p style="color:var(--text-secondary); margin-bottom:20px; font-size:1.05rem;">Welcome to the premier online pharmacy that prioritizes your health and well-being above all else. As a leading provider of pharmaceutical solutions, we are committed to delivering exceptional care, convenience, and reliability to our valued customers.</p>
+                    <p style="color:var(--text-secondary); margin-bottom:30px;">Founded by a team of experienced pharmacists, we ensure safety and efficacy at every stage. We handle prescriptions, over-the-counter remedies, and wellness products with automatic reminders and discreet packaging to protect your details.</p>
+                    <a href="#request-section" class="btn btn-primary">Make an Inquiry</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section-padding">
+            <div class="container">
+                <div style="text-align:center; margin-bottom:50px;">
+                    <h2 class="section-title" style="display:inline-block;">What People Say About Us</h2>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-rating">
+                            ${renderStars(5)}
+                        </div>
+                        <p class="testimonial-quote">"Fast service, friendly staff, and quality medication. Always my first choice for prescriptions."</p>
+                        <h4 class="testimonial-author">Hemant</h4>
+                        <span class="testimonial-role">Verified Patient</span>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-rating">
+                            ${renderStars(5)}
+                        </div>
+                        <p class="testimonial-quote">"Professional pharmacists who go above and beyond to ensure I understand my medications. Highly recommend!"</p>
+                        <h4 class="testimonial-author">Priya</h4>
+                        <span class="testimonial-role">Medical Buyer</span>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-rating">
+                            ${renderStars(5)}
+                        </div>
+                        <p class="testimonial-quote">"Convenient delivery, reliable service, and competitive prices. Trustworthy pharmacy for all my needs."</p>
+                        <h4 class="testimonial-author">Harsh</h4>
+                        <span class="testimonial-role">Wellness Customer</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- SINGLE PRODUCT DETAIL VIEW -->
+    <div id="product-view" class="view-container">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <div class="breadcrumbs">
+                <a href="#home">Home</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                <a href="#deals-section">Shop</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                <span id="breadcrumb-product-name" style="color:var(--text-muted)">KAMAGRA GOLD 100 MG</span>
+            </div>
+
+            <!-- Main Layout Grid -->
+            <div class="product-detail-layout">
+                <!-- Gallery Column -->
+                <div class="product-detail-gallery">
+                    <div class="product-gallery-main">
+                        <img id="detail-product-img" src="downloaded_site/images/kamagra-gold-100-mg.jpg" alt="Product Main Image">
+                    </div>
+                </div>
+                <!-- Info Column -->
+                <div class="product-detail-info">
+                    <h1 class="product-detail-title" id="detail-product-title">KAMAGRA GOLD 100 MG</h1>
+                    <div class="product-detail-rating">
+                        <span id="detail-product-rating-stars" style="display:flex; gap:4px;"></span>
+                        <span id="detail-product-rating-count"></span>
+                    </div>
+                    <div class="product-detail-price-box">
+                        <div>
+                            <span class="product-detail-price" id="detail-product-price">₹150.00</span>
+                            <span class="product-price-strike" id="detail-product-price-strike" style="font-size:1.25rem;">₹215.00</span>
+                        </div>
+                        <span class="badge badge-sale">IN STOCK</span>
+                    </div>
+                    
+                    <div class="product-detail-meta">
+                        <div class="product-meta-row">
+                            <span class="product-meta-label">Composition:</span>
+                            <span class="product-meta-value" id="meta-composition">Sildenafil 100mg</span>
+                        </div>
+                        <div class="product-meta-row">
+                            <span class="product-meta-label">Packing:</span>
+                            <span class="product-meta-value" id="meta-packing">One Box Contains 1 x 4 Tablets.</span>
+                        </div>
+                        <div class="product-meta-row">
+                            <span class="product-meta-label">Category:</span>
+                            <span class="product-meta-value" id="meta-category" style="color:var(--primary); font-weight:600">Erectile Dysfunction</span>
+                        </div>
+                    </div>
+
+                    <!-- Quantity and Button Group -->
+                    <div class="product-detail-actions">
+                        <div class="quantity-selector">
+                            <span class="quantity-btn" id="detail-qty-minus">-</span>
+                            <input class="quantity-input" type="text" id="detail-qty" value="1" readonly>
+                            <span class="quantity-btn" id="detail-qty-plus">+</span>
+                        </div>
+                        <button class="btn btn-primary" id="detail-qty-add-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+                            Add To Cart
+                        </button>
+                        <button class="btn btn-secondary" id="detail-buy-btn" style="flex:1.2">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabs Section -->
+            <div class="tabs-container">
+                <div class="tabs-nav" role="tablist">
+                    <button class="tab-btn active" data-tab="tab-description" role="tab" aria-selected="true">Description & Sourcing Info</button>
+                    <button class="tab-btn" data-tab="tab-reviews" role="tab" aria-selected="false">Reviews</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="tab-description">
+                        <div id="tab-description-content"></div>
+                    </div>
+                    <div class="tab-pane" id="tab-reviews">
+                        <div class="reviews-list" id="reviews-list-container">
+                            <p id="no-reviews-placeholder" style="color:var(--text-muted); font-style:italic">There are no reviews yet for this product. Be the first to leave one!</p>
+                        </div>
+                        <!-- Review form -->
+                        <div style="border-top:1px solid var(--border-color); padding-top:30px;">
+                            <h3 class="add-review-title">Leave a Review</h3>
+                            <form id="product-review-form">
+                                <div class="form-group-row">
+                                    <div class="form-group">
+                                        <label for="review-name">Name *</label>
+                                        <input type="text" id="review-name" class="form-input" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="review-email">Email *</label>
+                                        <input type="email" id="review-email" class="form-input" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-text">Your Review *</label>
+                                    <textarea id="review-text" class="form-input" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit Review</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Related Products Section -->
+            <section class="section-padding" style="border-top:1px solid var(--border-color);">
+                <h2 style="font-size:2rem; margin-bottom:40px;">Related Medicines</h2>
+                <div class="product-grid" id="related-products-grid">
+                    <!-- Cards populated by app.js -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Shopping Cart Slide-out Drawer -->
+    <div class="drawer-backdrop" id="cart-drawer-backdrop"></div>
+    <div class="drawer" id="cart-drawer">
+        <div class="drawer-header">
+            <h3 class="drawer-title">Shopping Cart</h3>
+            <button class="drawer-close" id="cart-drawer-close" aria-label="Close cart">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <div class="drawer-content" id="cart-items-container">
+            <!-- Populated by app.js -->
+        </div>
+        <div class="drawer-footer">
+            <div class="cart-summary-row">
+                <span class="cart-summary-label">Subtotal:</span>
+                <span class="cart-summary-value" id="cart-subtotal">₹0.00</span>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-primary" id="checkout-btn" style="width:100%;">Proceed to Inquiry Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick View Modal -->
+    <div class="modal-backdrop" id="quickview-modal">
+        <div class="modal">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close details">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <div id="modal-content-area">
+                <!-- Dynamically loaded product grid details -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="margin-bottom:20px;">
+                    <img src="downloaded_site/images/IMG-20230328-WA0000-e1707730601270.jpg" alt="Rohini Pharma Logo">
+                    <div class="logo-text">Rohini<span>Pharma</span></div>
+                </div>
+                <p>Welcome to our pharmacy, where health and well-being are our top priorities. We provide a comprehensive range of quality medications and services.</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn" aria-label="Facebook">F</a>
+                    <a href="#" class="social-btn" aria-label="Instagram">I</a>
+                    <a href="#" class="social-btn" aria-label="YouTube">Y</a>
+                    <a href="#" class="social-btn" aria-label="LinkedIn">L</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us-section">About Us</a></li>
+                    <li><a href="#categories-section">Categories</a></li>
+                    <li><a href="#deals-section">Medicines</a></li>
+                    <li><a href="#request-section">Request Form</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Return & Refund Policy</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info & Newsletter</h4>
+                <div class="footer-contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <span>Mon - Fri: 9:00 AM - 7:00 PM</span>
+                </div>
+                <div class="footer-contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <span>21/485 Hanuman Mandir Road, HZ Chawk, Rewa (MP) 486001</span>
+                </div>
+                <form class="newsletter-form" style="margin-top:20px;">
+                    <input type="email" class="newsletter-input" placeholder="Your Email">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>© 2026 ROHINI PHARMA. All Rights Reserved. Designed for premium eCommerce experience.</p>
+            <img src="downloaded_site/images/payments2.png" alt="Accepted Payment Brands" style="height:25px; opacity:0.8;">
+        </div>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
